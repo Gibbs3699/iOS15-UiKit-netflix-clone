@@ -1,5 +1,5 @@
 //
-//  HeroHeaderUIVIew.swift
+//  HeroHeaderUIView.swift
 //  iOS15-UiKit-netflix-clone
 //
 //  Created by TheGIZzz on 24/4/2565 BE.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class HeroHeaderUIVIew: UIView {
+class HeroHeaderUIView: UIView {
 
     private let downloadButton: UIButton = {
        let button = UIButton()

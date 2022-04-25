@@ -17,7 +17,8 @@
 		DCB15CAE28071D3100449BCC /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB15CAD28071D3100449BCC /* SearchViewController.swift */; };
 		DCB15CB028071D4700449BCC /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB15CAF28071D4700449BCC /* DownloadsViewController.swift */; };
 		DCB15CB728088ABC00449BCC /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB15CB628088ABC00449BCC /* CollectionViewTableViewCell.swift */; };
-		DCB15CF92815B62300449BCC /* HeroHeaderUIVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB15CF82815B62300449BCC /* HeroHeaderUIVIew.swift */; };
+		DCB15CF92815B62300449BCC /* HeroHeaderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB15CF82815B62300449BCC /* HeroHeaderUIView.swift */; };
+		DCD927572816AA290066F987 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD927562816AA290066F987 /* UIImage+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,7 +34,8 @@
 		DCB15CAD28071D3100449BCC /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		DCB15CAF28071D4700449BCC /* DownloadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsViewController.swift; sourceTree = "<group>"; };
 		DCB15CB628088ABC00449BCC /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
-		DCB15CF82815B62300449BCC /* HeroHeaderUIVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroHeaderUIVIew.swift; sourceTree = "<group>"; };
+		DCB15CF82815B62300449BCC /* HeroHeaderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroHeaderUIView.swift; sourceTree = "<group>"; };
+		DCD927562816AA290066F987 /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 		DC48B28A2805C85F00D11988 /* iOS15-UiKit-netflix-clone */ = {
 			isa = PBXGroup;
 			children = (
+				DCD927552816AA0D0066F987 /* Extension */,
 				DCB15CB528088A9500449BCC /* Managers */,
 				DCB15CB428088A8D00449BCC /* Resources */,
 				DCB15CB328088A7500449BCC /* Models */,
@@ -97,7 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				DCB15CB628088ABC00449BCC /* CollectionViewTableViewCell.swift */,
-				DCB15CF82815B62300449BCC /* HeroHeaderUIVIew.swift */,
+				DCB15CF82815B62300449BCC /* HeroHeaderUIView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -128,6 +131,14 @@
 			children = (
 			);
 			path = Managers;
+			sourceTree = "<group>";
+		};
+		DCD927552816AA0D0066F987 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				DCD927562816AA290066F987 /* UIImage+Extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,11 +213,12 @@
 			files = (
 				DCB15CAE28071D3100449BCC /* SearchViewController.swift in Sources */,
 				DC48B2902805C85F00D11988 /* MainTabBarViewController.swift in Sources */,
-				DCB15CF92815B62300449BCC /* HeroHeaderUIVIew.swift in Sources */,
+				DCB15CF92815B62300449BCC /* HeroHeaderUIView.swift in Sources */,
 				DCB15CB728088ABC00449BCC /* CollectionViewTableViewCell.swift in Sources */,
 				DCB15CB028071D4700449BCC /* DownloadsViewController.swift in Sources */,
 				DC48B28C2805C85F00D11988 /* AppDelegate.swift in Sources */,
 				DC48B28E2805C85F00D11988 /* SceneDelegate.swift in Sources */,
+				DCD927572816AA290066F987 /* UIImage+Extension.swift in Sources */,
 				DCB15CAC28071D2300449BCC /* UpcomingViewController.swift in Sources */,
 				DCB15CAA28071D1000449BCC /* HomeViewController.swift in Sources */,
 			);
