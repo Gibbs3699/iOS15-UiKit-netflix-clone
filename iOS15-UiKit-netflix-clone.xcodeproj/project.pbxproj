@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC080AEF2819A67800C25C91 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC080AEE2819A67800C25C91 /* APICaller.swift */; };
+		DC080AF1281A3E1300C25C91 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC080AF0281A3E1300C25C91 /* Movie.swift */; };
 		DC48B28C2805C85F00D11988 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC48B28B2805C85F00D11988 /* AppDelegate.swift */; };
 		DC48B28E2805C85F00D11988 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC48B28D2805C85F00D11988 /* SceneDelegate.swift */; };
 		DC48B2902805C85F00D11988 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC48B28F2805C85F00D11988 /* MainTabBarViewController.swift */; };
@@ -22,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DC080AEE2819A67800C25C91 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		DC080AF0281A3E1300C25C91 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		DC48B2882805C85F00D11988 /* iOS15-UiKit-netflix-clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS15-UiKit-netflix-clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC48B28B2805C85F00D11988 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC48B28D2805C85F00D11988 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -115,6 +119,7 @@
 		DCB15CB328088A7500449BCC /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				DC080AF0281A3E1300C25C91 /* Movie.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -129,6 +134,7 @@
 		DCB15CB528088A9500449BCC /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				DC080AEE2819A67800C25C91 /* APICaller.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -213,12 +219,14 @@
 			files = (
 				DCB15CAE28071D3100449BCC /* SearchViewController.swift in Sources */,
 				DC48B2902805C85F00D11988 /* MainTabBarViewController.swift in Sources */,
+				DC080AF1281A3E1300C25C91 /* Movie.swift in Sources */,
 				DCB15CF92815B62300449BCC /* HeroHeaderUIView.swift in Sources */,
 				DCB15CB728088ABC00449BCC /* CollectionViewTableViewCell.swift in Sources */,
 				DCB15CB028071D4700449BCC /* DownloadsViewController.swift in Sources */,
 				DC48B28C2805C85F00D11988 /* AppDelegate.swift in Sources */,
 				DC48B28E2805C85F00D11988 /* SceneDelegate.swift in Sources */,
 				DCD927572816AA290066F987 /* UIImage+Extension.swift in Sources */,
+				DC080AEF2819A67800C25C91 /* APICaller.swift in Sources */,
 				DCB15CAC28071D2300449BCC /* UpcomingViewController.swift in Sources */,
 				DCB15CAA28071D1000449BCC /* HomeViewController.swift in Sources */,
 			);
