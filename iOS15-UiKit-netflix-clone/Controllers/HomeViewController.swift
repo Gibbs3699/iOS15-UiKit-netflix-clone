@@ -31,7 +31,7 @@ class HomeViewController: UIViewController {
         homeFeedTable.tableHeaderView = headerView
         
         configureNavbar()
-        getTrendingMovies()
+        fetchData()
     }
     
     private func configureNavbar() {
@@ -54,15 +54,31 @@ class HomeViewController: UIViewController {
         homeFeedTable.frame = view.bounds
     }
     
-    private func getTrendingMovies() {
-        APICaller.shared.getTrendingMovies { results in
-            switch results {
-            case .success(let movie):
-                print(movie)
-            case .failure(let error):
-                print(error)
-            }
+    private func fetchData() {
+//        APICaller.shared.getTrendingMovies { results in
+//            switch results {
+//            case .success(let movie):
+//                print(movie)
+//            case .failure(let error):
+//                print(error)
+//            }
+//
+//        }
         
+//        APICaller.shared.getTrendingTv { (results) in
+//            print(results)
+//        }
+        
+        APICaller.shared.getUpcomingMovies { (results) in
+            print(results)
+        }
+        
+        APICaller.shared.getPopular { (results) in
+            print("get Popular ----> \(results)")
+        }
+        
+        APICaller.shared.getTopRated { (results) in
+            print("get TopRated ----> \(results)")
         }
     }
 
