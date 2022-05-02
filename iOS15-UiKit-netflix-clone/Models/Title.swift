@@ -1,18 +1,18 @@
 //
-//  Tv.swift
+//  Movie.swift
 //  iOS15-UiKit-netflix-clone
 //
-//  Created by TheGIZzz on 1/5/2565 BE.
+//  Created by TheGIZzz on 28/4/2565 BE.
 //
 
 import Foundation
 
-struct TrendingTvResponse: Codable {
-    let results: [Tv]
+struct TrendingTitleResponse: Codable {
+    let results: [Title]
     
 }
 
-struct Tv: Codable {
+struct Title: Codable {
     let id: Int
     let media_type: String?
     let original_name: String?
