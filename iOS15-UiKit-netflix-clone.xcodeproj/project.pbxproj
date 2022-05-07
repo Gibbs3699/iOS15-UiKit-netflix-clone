@@ -15,6 +15,7 @@
 		DC080B002821842500C25C91 /* TitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC080AFF2821842500C25C91 /* TitleTableViewCell.swift */; };
 		DC080B022821864B00C25C91 /* TitleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC080B012821864B00C25C91 /* TitleViewModel.swift */; };
 		DC080B0428242CC000C25C91 /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC080B0328242CC000C25C91 /* SearchResultsViewController.swift */; };
+		DC080B082826607100C25C91 /* YoutubeSearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC080B072826607100C25C91 /* YoutubeSearchResponse.swift */; };
 		DC48B28C2805C85F00D11988 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC48B28B2805C85F00D11988 /* AppDelegate.swift */; };
 		DC48B28E2805C85F00D11988 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC48B28D2805C85F00D11988 /* SceneDelegate.swift */; };
 		DC48B2902805C85F00D11988 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC48B28F2805C85F00D11988 /* MainTabBarViewController.swift */; };
@@ -37,6 +38,7 @@
 		DC080AFF2821842500C25C91 /* TitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleTableViewCell.swift; sourceTree = "<group>"; };
 		DC080B012821864B00C25C91 /* TitleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleViewModel.swift; sourceTree = "<group>"; };
 		DC080B0328242CC000C25C91 /* SearchResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsViewController.swift; sourceTree = "<group>"; };
+		DC080B072826607100C25C91 /* YoutubeSearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeSearchResponse.swift; sourceTree = "<group>"; };
 		DC48B2882805C85F00D11988 /* iOS15-UiKit-netflix-clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS15-UiKit-netflix-clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC48B28B2805C85F00D11988 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC48B28D2805C85F00D11988 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -152,6 +154,7 @@
 			isa = PBXGroup;
 			children = (
 				DC080AF0281A3E1300C25C91 /* Title.swift */,
+				DC080B072826607100C25C91 /* YoutubeSearchResponse.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -272,6 +275,7 @@
 				DC080AEF2819A67800C25C91 /* APICaller.swift in Sources */,
 				DC080B022821864B00C25C91 /* TitleViewModel.swift in Sources */,
 				DCB15CAC28071D2300449BCC /* UpcomingViewController.swift in Sources */,
+				DC080B082826607100C25C91 /* YoutubeSearchResponse.swift in Sources */,
 				DCB15CAA28071D1000449BCC /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
