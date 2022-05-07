@@ -16,6 +16,8 @@
 		DC080B022821864B00C25C91 /* TitleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC080B012821864B00C25C91 /* TitleViewModel.swift */; };
 		DC080B0428242CC000C25C91 /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC080B0328242CC000C25C91 /* SearchResultsViewController.swift */; };
 		DC080B082826607100C25C91 /* YoutubeSearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC080B072826607100C25C91 /* YoutubeSearchResponse.swift */; };
+		DC080B0A2826647D00C25C91 /* TitlePreviewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC080B092826647D00C25C91 /* TitlePreviewsViewController.swift */; };
+		DC080B0C282666FE00C25C91 /* TitlePreviewsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC080B0B282666FE00C25C91 /* TitlePreviewsViewModel.swift */; };
 		DC48B28C2805C85F00D11988 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC48B28B2805C85F00D11988 /* AppDelegate.swift */; };
 		DC48B28E2805C85F00D11988 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC48B28D2805C85F00D11988 /* SceneDelegate.swift */; };
 		DC48B2902805C85F00D11988 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC48B28F2805C85F00D11988 /* MainTabBarViewController.swift */; };
@@ -39,6 +41,8 @@
 		DC080B012821864B00C25C91 /* TitleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleViewModel.swift; sourceTree = "<group>"; };
 		DC080B0328242CC000C25C91 /* SearchResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsViewController.swift; sourceTree = "<group>"; };
 		DC080B072826607100C25C91 /* YoutubeSearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeSearchResponse.swift; sourceTree = "<group>"; };
+		DC080B092826647D00C25C91 /* TitlePreviewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlePreviewsViewController.swift; sourceTree = "<group>"; };
+		DC080B0B282666FE00C25C91 /* TitlePreviewsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlePreviewsViewModel.swift; sourceTree = "<group>"; };
 		DC48B2882805C85F00D11988 /* iOS15-UiKit-netflix-clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS15-UiKit-netflix-clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC48B28B2805C85F00D11988 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC48B28D2805C85F00D11988 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				DC080B0328242CC000C25C91 /* SearchResultsViewController.swift */,
+				DC080B092826647D00C25C91 /* TitlePreviewsViewController.swift */,
 			);
 			path = General;
 			sourceTree = "<group>";
@@ -146,6 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				DC080B012821864B00C25C91 /* TitleViewModel.swift */,
+				DC080B0B282666FE00C25C91 /* TitlePreviewsViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -261,6 +267,7 @@
 			files = (
 				DCB15CAE28071D3100449BCC /* SearchViewController.swift in Sources */,
 				DC080B0428242CC000C25C91 /* SearchResultsViewController.swift in Sources */,
+				DC080B0C282666FE00C25C91 /* TitlePreviewsViewModel.swift in Sources */,
 				DC48B2902805C85F00D11988 /* MainTabBarViewController.swift in Sources */,
 				DC080AF1281A3E1300C25C91 /* Title.swift in Sources */,
 				DCB15CF92815B62300449BCC /* HeroHeaderUIView.swift in Sources */,
@@ -273,6 +280,7 @@
 				DC080B002821842500C25C91 /* TitleTableViewCell.swift in Sources */,
 				DCD927572816AA290066F987 /* UIImage+Extension.swift in Sources */,
 				DC080AEF2819A67800C25C91 /* APICaller.swift in Sources */,
+				DC080B0A2826647D00C25C91 /* TitlePreviewsViewController.swift in Sources */,
 				DC080B022821864B00C25C91 /* TitleViewModel.swift in Sources */,
 				DCB15CAC28071D2300449BCC /* UpcomingViewController.swift in Sources */,
 				DC080B082826607100C25C91 /* YoutubeSearchResponse.swift in Sources */,

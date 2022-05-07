@@ -163,7 +163,7 @@ class APICaller {
         task.resume()
     }
     
-    func getMovie(with query: String, completion: @escaping (Result<[VideoElement], Error>) -> Void) {
+    func getMovie(with query: String, completion: @escaping (Result<VideoElement, Error>) -> Void) {
         guard let query = query.addingPercentEncoding(withAllowedCharacters: .urlHostAllowed) else { return }
         
         guard let url = URL(string: "\(Constants.Youtube_baseURL)q=\(query)&key=\(Constants.YoutubeAPI_KEY)") else {return}
@@ -176,7 +176,8 @@ class APICaller {
             do {
                 let results = try JSONDecoder().decode(YoutubeSearchResponse.self, from: data)
                 print("check getMovie response ----> \(results)")
-                completion(.success(results.items))
+                completion(.success(results.items[0]))
+                
             } catch {
                 completion(.failure(APIError.failedTogetData))
             }
